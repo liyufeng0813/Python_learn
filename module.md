@@ -2,11 +2,21 @@
 
 [1 random](#1-random模块)
 
-​	：可以生成随机浮点数、整数、字符串，以及随机选择列表序列中的一个元素，打乱一组数据等。
-
 [2 time](#2-time模块)
 
 [3 json](#3-json模块)
+
+[4 string标准库 和 str方法](http://blog.csdn.net/github_36601823/article/details/77815013)
+
+[5 textwrap](https://www.cnblogs.com/wj5633/p/6931187.html)
+
+[6 unicodedata](http://blog.csdn.net/caimouse/article/details/49382477)
+
+[7 csv](https://www.cnblogs.com/yanglang/p/7126660.html)
+
+
+
+
 
 
 
