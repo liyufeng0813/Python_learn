@@ -2,13 +2,13 @@
 
 [**1 python中的深复制与浅复制**](http://python.jobbole.com/82294/)
 
-**[2 列表去重复内容](#2 列表去重复内容)**
+**[2 列表去重复内容](#2-列表去重复内容)**
 
-[**3 sort  sorted**](#3 sort  sorted)
+[**3 sort  sorted**](#3-sort,sorted)
 
-[**4 python3 把\u开头的unicode转中文，把str形态的unicode转中文**](#4 python3 把\u开头的unicode转中文，把str形态的unicode转中文)
+[**4 python3 把\u开头的unicode转中文，把str形态的unicode转中文**](#4-python3 把\u开头的unicode转中文，把str形态的unicode转中文)
 
-[**5 属性操作**](#5 属性操作)
+[**5 属性操作**](#5-属性操作)
 
 **2 列表去重复内容**
 
@@ -16,7 +16,7 @@
 - [list2.append(i) for i in list1 if i not in list2]
 - [list2.sppend(i) for i in sorted(list1) if i not in list2]
 
-**3 sort  sorted**
+**3 sort,sorted**
 
 - sort函数只定义在list中，sorted函数对于所有的可迭代序列可以定义。
 
