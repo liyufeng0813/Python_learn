@@ -4,19 +4,21 @@
 
 [2 列表去重复内容](#2-列表去重复内容)
 
-[3 sort  sorted**](#3-sort,sorted)
+[3 sort  sorted](#3-sort,sorted)
 
 [4 python3把\u开头的unicode转中文，把str形态的unicode转中文](#4-python3把\u开头的unicode转中文，把str形态的unicode转中文)
 
 [5 属性操作](#5-属性操作)
 
-**2 列表去重复内容**
+[6 排序算法](# 6-排序算法)
+
+#### 2 列表去重复内容
 
 - list(set(list1))
 - [list2.append(i) for i in list1 if i not in list2]
 - [list2.sppend(i) for i in sorted(list1) if i not in list2]
 
-**3 sort,sorted**
+#### 3 sort,sorted
 
 - sort函数只定义在list中，sorted函数对于所有的可迭代序列可以定义。
 
@@ -57,7 +59,7 @@
   ['a', 'Andrew', 'from', 'is', 'string', 'test', 'This']
   ```
 
-**4 python3把\u开头的unicode转中文，把str形态的unicode转中文**
+#### 4 python3把\u开头的unicode转中文，把str形态的unicode转中文
 
 python3以上取消了decode，str.decode(“utf-8”)的话会报str没有decode方法的错 
 
@@ -66,7 +68,7 @@ python3以上取消了decode，str.decode(“utf-8”)的话会报str没有decod
 生化危机
 >>>
 ```
-**5 属性操作**
+#### 5 属性操作
 
 - hasattr	getattr	delattr
 
@@ -89,4 +91,22 @@ python3以上取消了decode，str.decode(“utf-8”)的话会报str没有decod
   #给对象的属性赋值，若属性不存在，先创建再赋值。
   ```
 
-  ​
+  #### 6 排序算法
+
+- 冒泡排序:
+
+  冒泡排序的时间复杂度是O(N^2)
+
+  冒泡排序的思想: 每次比较两个相邻的元素, 如果他们的顺序错误就把他们交换位置
+
+```python
+def bubbleSort(nums):
+    for i in range(len(nums)-1):    # 这个循环负责设置冒泡排序进行的次数
+        for j in range(len(nums)-i-1):  # ｊ为列表下标
+            if nums[j] > nums[j+1]:
+                nums[j], nums[j+1] = nums[j+1], nums[j]
+    return nums
+
+nums = [5,2,45,6,8,2,1]
+```
+
